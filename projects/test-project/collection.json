@@ -1,0 +1,101 @@
+{
+  "type": "Collection",
+  "id": "test-project",
+  "stac_version": "1.0.0",
+  "description": "test",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/catalog",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/catalog",
+      "title": "EO4Society Link"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "created": "2026-04-10T10:17:33.811062Z",
+  "updated": "2026-04-10T10:17:33.811062Z",
+  "osc:status": "ongoing",
+  "osc:type": "project",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "name surname",
+      "roles": [
+        "technical_officer"
+      ],
+      "emails": [
+        {
+          "value": "name.surname@test.org"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "roles": [
+        "consoritum_member"
+      ],
+      "emails": [
+        {
+          "value": "test"
+        }
+      ]
+    }
+  ],
+  "title": "TestProject",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -90.0,
+          -180.0,
+          90.0,
+          180.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT"
+}
